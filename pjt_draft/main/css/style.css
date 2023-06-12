@@ -24,7 +24,6 @@
 }
 
 #wrap div.menubar input {
-    /* vertical-align: middle; */
     float: right;
     text-align: right;
 }
@@ -42,44 +41,42 @@
     height: 150px;
     position: relative;
     transform-style: preserve-3d;
-    display: flex;
-    flex-direction: row;
 }
 
-#wrap > div.cylinder > div.pic {
+.pic {
     position: absolute;
     top: 0;
     left: 0;
-    width: 200px;
-    height: 300px;
+    width: 160px;
+    height: 235px;
+    display: flex;
     align-items: center;
     justify-content: center;
-    transform-style: preserve-3d;
 }
 
 #wrap div.cylinder > div.pic > img {
-    width: 200px;
-    height: 300px;
+    width: 160px;
+    height: 235px;
 }
 
 #wrap div.cylinder > div.pic:nth-child(1) {
-    transform: rotateY(-60deg) translateZ(400px);
+    transform: rotateY(-30deg) translateZ(650px);
 }
 
 #wrap div.cylinder > div.pic:nth-child(2) {
-    transform: rotateY(-30deg) translateZ(400px);
+    transform: rotateY(-15deg) translateZ(650px);
 }
 
 #wrap div.cylinder > div.pic:nth-child(3) {
-    transform: rotateY(0deg) translateZ(400px);
+    transform: rotateY(0deg) translateZ(650px);
 }
 
 #wrap div.cylinder > div.pic:nth-child(4) {
-    transform: rotateY(30deg) translateZ(400px);
+    transform: rotateY(15deg) translateZ(650px);
 }
 
 #wrap div.cylinder > div.pic:nth-child(5) {
-    transform: rotateY(60deg) translateZ(400px);
+    transform: rotateY(30deg) translateZ(650px);
 }
 
 #wrap div.wheel_02 {
